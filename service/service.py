@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, abort
 import os
 import time
 import random
@@ -43,7 +43,10 @@ def handle():
     global requestID_counter
 
     if request.method == "POST":
+
+        print "received POST request"
         obj = request.get_json(force=True)
+        print obj
         if "requestID" not in obj or \
            "process" not in obj or \
            "block" not in obj or \
@@ -51,7 +54,7 @@ def handle():
            "visited" not in obj:
             abort(400, "Invalid Request")
 
-        if len(obj["process"]) != 1 and len(obj["process"]) == len(obj["block"]):
+        if len(obj["process"]) != 1 and len(obj["process"]) != len(obj["block"]):
             abort(400, "Could not determine length of call path")
 
         # TODO: log request
@@ -63,8 +66,9 @@ def handle():
         block = obj["block"].pop(0)
 
         # perform processing and blocking
-        busy_wait(obj["process"])
-        sleep(obj["block"])
+        busy_wait(process)
+        sleep(block)
+        print "finished process+wait"
 
         # Handle having no further targets
         if len(obj[path]) == 0:
@@ -85,6 +89,8 @@ def handle():
             resp["path"] = []
         else:
             resp["path"] = obj["path"][1:]
+        print "response:"
+        print resp
         
         # Determine next microservice to call
         targets = obj["path"].pop(0)
@@ -96,9 +102,10 @@ def handle():
                 continue
             if roll < total_prob:
                 final_target = target
+        print "Next Hop: " + final_target
 
         # Send POST to final target
-        requests.post("http://" + final_target +".swarm, json=resp)
+        requests.post("http://" + final_target +".swarm", json=resp)
         return "OK"
 
-app.run(host="0.0.0.0", port=80)
+app.run(host="0.0.0.0", port=80, debug=True)

@@ -11,4 +11,9 @@ eval $(docker-machine env --swarm swarm-m)
 
 
 master=$(docker-machine ip swarm-m)
-docker run -d -P -e SERVICE_NAME=$1 --dns $master afein/service
+if [ $# -eq 1 ]
+then
+	docker run -d -P -e SERVICE_NAME=$1 --dns $master afein/service
+	exit 0
+fi
+docker run -d -P -e SERVICE_NAME=$1 -e constraint:node==$2 --dns $master --name $1 afein/service
