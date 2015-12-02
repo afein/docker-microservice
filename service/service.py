@@ -98,7 +98,7 @@ def handle():
                 final_target = target
 
         # Send POST to final target
-        requests.post(final_target, json=resp)
+        requests.post("http://" + final_target +".swarm, json=resp)
         return "OK"
 
 app.run(host="0.0.0.0", port=80)
