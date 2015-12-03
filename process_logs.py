@@ -4,12 +4,10 @@ import time
 import json
 
 def parse_logs():
-    # Parse_sleuth parses sleuth log messages to create the required messages of 
-    # service_name, timestamp, service_class, workflow_id
     log_files = []
-    for f in os.listdir(os.getcwd() + "/logs"):
+    for f in os.listdir(os.getcwd() + "/micro"):
         if f.endswith(".log"): 
-            log_files.append((f, open(os.getcwd() + "/logs/" + f, 'r')))
+            log_files.append((f, open(os.getcwd() + "/micro/" + f, 'r')))
 
     traces = {}
     trace_counter = 0
@@ -74,7 +72,12 @@ def gen_latency(final):
         last_timestamp = 0
         if workflow_id not in res_workflows:
             res_workflows[workflow_id] = []
-        for service in services:
+
+        sorted_services = sorted(services, key=lambda k:k['Timestamp'])
+        for service in sorted_services:
+            if service["Type"] == "Response":
+                last_timestamp = service["Timestamp"]
+                continue
             if last_timestamp == 0:
                 latency = 0
             else:
@@ -82,9 +85,10 @@ def gen_latency(final):
             last_timestamp = service["Timestamp"]
             res_workflows[workflow_id].append({
                 "Service" : service["Service"],
-                "Type" : entry["Type"],
+                "Type" : service["Type"],
                 "Latency" : latency
             })
+    return res_workflows
 
 
 def final_readable(final):
@@ -93,7 +97,6 @@ def final_readable(final):
         print "Workflow ID: " + str(key)
         for call in val:
             print "Service: " + call["Service"]
-            print "Endpoint: " + call["Endpoint"]
             print "Latency: " + str(call["Latency"])
             print ""
 
@@ -107,8 +110,8 @@ if __name__ == "__main__":
     g = open("grouped_results", "w+")
     g.write(str(final))
 
-#    final = group_by_workflow(intermediate)
-#    g = open("grouped_results", "w+")
-#    g.write(str(final))
-#    final_readable(final)
+    final2 = gen_latency(final)
+    g = open("final_results", "w+")
+    g.write(str(final2))
+    final_readable(final2)
 
