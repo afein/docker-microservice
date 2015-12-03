@@ -6,12 +6,11 @@ import requests
 
 app = Flask("microservice")
 
-os.system("mkdir -p /var/log/micro")
-log = open("/var/log/micro/microservice.log", "w+")
+service_name = os.environ["SERVICE_NAME"]
+
+log = open("/var/log/micro/" + service_name + ".log", "w+")
 
 requestID_counter = 1
-
-service_name = os.environ["SERVICE_NAME"]
 
 def busy_wait(seconds):
     dt = time.strptime(str(seconds), "%S")
@@ -44,9 +43,7 @@ def handle():
 
     if request.method == "POST":
 
-        print "received POST request"
         obj = request.get_json(force=True)
-        print obj
         if "requestID" not in obj or \
            "process" not in obj or \
            "block" not in obj or \
@@ -57,8 +54,20 @@ def handle():
         if len(obj["process"]) != 1 and len(obj["process"]) != len(obj["block"]):
             abort(400, "Could not determine length of call path")
 
-        # TODO: log request
-        #
+        # Build response requestID
+        resp = {}
+        if obj["requestID"] == 0:
+            resp["requestID"] = requestID_counter
+            # TODO: use distributed requestID counter for multiple entrypoints
+            requestID_counter += 1
+        else:
+            resp["requestID"] = obj["requestID"]
+
+
+        obj["requestID"] = resp["requestID"]
+        log.write(str(time.time()) + " Received Request: " + str(obj) + "\n")
+        log.flush()
+
         if service_name in obj["visited"]:
             return "OK"
 
@@ -67,45 +76,39 @@ def handle():
 
         # perform processing and blocking
         busy_wait(process)
-        sleep(block)
-        print "finished process+wait"
+        time.sleep(block)
 
         # Handle having no further targets
-        if len(obj[path]) == 0:
-            return "OK"
+        if len(obj["path"]) == 0:
+            return "Path Completed at service: " + service_name
 
-        # Build response
-        resp = {}
-        if obj["requestID"] == 0:
-            resp["requestID"] = requestID_counter
-            # TODO: use distributed requestID counter for multiple entrypoints
-            requestID_counter += 1
-        else:
-            resp["requestID"] = obj["requestID"]
+        # Build the rest of the response
         resp["process"] = obj["process"]
         resp["block"] = obj["block"]
-        resp["visited"] = [obj["block"]] + [service_name]
-        if len(obj["path"] == 1):
+        resp["visited"] = [obj["visited"]] + [service_name]
+        if len(obj["path"]) == 1:
             resp["path"] = []
         else:
             resp["path"] = obj["path"][1:]
-        print "response:"
-        print resp
         
         # Determine next microservice to call
+        if len(obj["path"]) == 0:
+            return "Path Completed at service: " + service_name
+
         targets = obj["path"].pop(0)
         total_prob = 0
         roll = random.random()
-        for target, prob in targets:
+        for target, prob in targets.iteritems():
             total_prob += prob
             if target == service_name:
                 continue
             if roll < total_prob:
                 final_target = target
-        print "Next Hop: " + final_target
 
         # Send POST to final target
-        requests.post("http://" + final_target +".swarm", json=resp)
-        return "OK"
+        log.write(str(time.time()) + " Sending Response: " + str(resp) + "\n")
+        log.flush()
+        returned = requests.post("http://" + final_target, json=resp)
+        return returned.text
 
 app.run(host="0.0.0.0", port=80, debug=True)
