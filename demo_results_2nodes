@@ -1,0 +1,1258 @@
+-------------------
+Workflow ID: 0
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 1
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 2
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 3
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 4
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 5
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.00999999046
+
+-------------------
+Workflow ID: 6
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 7
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.00999999046
+
+-------------------
+Workflow ID: 8
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 9
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 10
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 11
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 12
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 13
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 14
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 15
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 16
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 17
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 18
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 19
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 20
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 21
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.00999999046
+
+-------------------
+Workflow ID: 22
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 23
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 24
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.00999999046
+
+-------------------
+Workflow ID: 25
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 26
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 27
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 28
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 29
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 30
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 31
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 32
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 33
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 34
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 35
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 36
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 37
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 38
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 39
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 40
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 41
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 42
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 43
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 44
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 45
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 46
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 47
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 48
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 49
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 50
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 51
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 52
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 53
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 54
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 55
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.00999999046
+
+-------------------
+Workflow ID: 56
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 57
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 58
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 59
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.00999999046
+
+-------------------
+Workflow ID: 60
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 61
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 62
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 63
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 64
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 65
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 66
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 67
+Service: api-gateway
+Latency: 0
+
+Service: rating-service
+Latency: 2.0
+
+-------------------
+Workflow ID: 68
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 69
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 70
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 71
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 72
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 73
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 74
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.00999999046
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 75
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.00999999046
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 76
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 77
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 78
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 79
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 80
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 81
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 82
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 83
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 84
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 85
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 86
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 87
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 88
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 89
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 90
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 91
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 92
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 93
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 94
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 95
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.0100002288818
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 96
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 97
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 98
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.00999999046
+
+Service: image-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 99
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.00999999046
+
+Service: image-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 100
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 101
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 102
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.00999999046
+
+Service: image-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 103
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.01000022888
+
+Service: image-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 104
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 105
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 106
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 107
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.00999999046
+
+Service: image-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 108
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.00999999046
+
+Service: image-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 109
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 110
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 111
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.0100002288818
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 112
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 113
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 114
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 115
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 116
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 117
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 118
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 119
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 120
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 121
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 122
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.00999999046
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 123
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 124
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 125
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 126
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 127
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 128
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 129
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 2.0
+
+Service: image-service
+Latency: 0.00999999046326
+
+-------------------
+Workflow ID: 130
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 131
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
+
+-------------------
+Workflow ID: 132
+Service: api-gateway
+Latency: 0
+
+Service: movie-service
+Latency: 0.00999999046326
+
+Service: image-service
+Latency: 0.0
